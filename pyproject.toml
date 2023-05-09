@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "requests-httpx"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+packages = [{include = "requests_httpx"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
